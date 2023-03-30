@@ -30,52 +30,51 @@
 		
 		
 
-		
+	
 		.search{
 		width:200px;
 		height:50px;
 		font-weight:bold;
+		text-transform:uppercase;
 		border-radius:10px;
-		position:absolute;
-		right:200px;
-		top:15px;
 		}
+		
+
 		
 		nav .img1{
 			height:50px;
 		}
 		
+		@media (min-width:1200px){
 		
+		.search{
+			margin-left:50px;
+			
+		}
+		
+		
+		}
 		
 		@media (min-width:992px)and (max-width:1200px){
 		
 		nav .img1{
+			height:35px;
 			margin-left:-40px;
 		}
 		
-		.search{
-		width:145px;
-		height:50px;
-		position:absolute;
-		right:5px;
-		top:13px;
-		}
 		
 		nav #collapsibleNavbar{
-			margin-left:-40px;
+			margin-left:-50px;
 		}
 		
-		}
-		
-		@media (min-width:1200px)and (max-width:2000px){
-	
 		.search{
-		width:175px;
-		position:absolute;
-		right:45px;
-		top:13px;
+			margin-left:10px;
+			width:170px;
+			
 		}
+		
 		}
+		
 		
 		@media (min-width:768px)and (max-width:992px){
 	
@@ -83,14 +82,6 @@
 		position:absolute;
 		right:25px;
 		top:20px;
-		}
-		
-		.search{
-		width:175px;
-		height:40px;
-		position:absolute;
-		right:95px;
-		top:19px;
 		}
 		
 		}
@@ -105,11 +96,6 @@
 		top:20px;
 		}
 		
-		.search{
-		position:absolute;
-		right:95px;
-		top:19px;
-		}
 		
 		}
 		
@@ -119,15 +105,11 @@
 		.navbar-toggler{
 		position:absolute;
 		right:25px;
-		top:20px;
+		top:12px;
 		}
-		
-		.search{
-		width:175px;
-		height:40px;
-		position:absolute;
-		right:95px;
-		top:19px;
+
+		nav .img1{
+			height: 40px;
 		}
 		
 		}
@@ -157,12 +139,10 @@
 				<li class='nav-item'><a class='nav-link  l1' href='Specialtour.html' style='width:160px; text-align:center;'>SPECIALITY TOUR</a></li>
 				<li class='nav-item'><a class='nav-link  l1 '  href='Travel.html' style='width:110px; text-align:center;'>TRAVLES</a></li>
 				<li class='nav-item'><a class='nav-link l1' href='Contact.html' style='width:110px; text-align:center;'>CONTACT</a></li>
+				<li class='nav-item'><button class="btn bg-light search" type="submit">REGISTER NOW</button></li>
 			  </ul>
 			  
 			</div>
-			<form class="d-flex mx-5" role="search" >
-				<button class="btn bg-light search" type="submit">REGISTER NOW</button>
-			  </form>
 		</div>
 	</nav>
 
